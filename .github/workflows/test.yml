@@ -27,8 +27,9 @@ jobs:
           cd FDTraining
           npm install
 
-      # Run Cypress tests inside the FDTraining folder
-      - name: Run Cypress tests
-        run: |
-          cd FDTraining
-          npx cypress run
+      # Run Cypress using official action
+      - name: Run Cypress using official action
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: FDTraining
+          runTests: true
