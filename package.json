@@ -11,7 +11,7 @@
   "keywords": [],
   "devDependencies": {
     "@types/node": "^24.3.0",
-    "cypress": "^15.2.0",
+    "cypress": "^15.7.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-xpath": "^2.0.1",
     "ts-node": "^10.9.2",
@@ -19,5 +19,13 @@
   },
   "dependencies": {
     "xlsx": "^0.18.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alia224/MyProjects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alia224/MyProjects/issues"
+  },
+  "homepage": "https://github.com/Alia224/MyProjects#readme"
 }
