@@ -1,0 +1,5 @@
+export const Config = {
+  url: 'https://hrm.neotechacademy.com/',
+  username: 'Admin',
+  password: 'Neotech@123'
+};
