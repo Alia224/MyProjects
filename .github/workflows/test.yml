@@ -21,10 +21,14 @@ jobs:
         with:
           node-version: 18
 
-      # Step 3: Install dependencies
+      # Install dependencies inside the FDTraining folder
       - name: Install dependencies
-        run: npm install
+        run: |
+          cd FDTraining
+          npm install
 
-      # Step 4: Run Cypress
+      # Run Cypress tests inside the FDTraining folder
       - name: Run Cypress tests
-        run: npx cypress run
+        run: |
+          cd FDTraining
+          npx cypress run
